@@ -159,11 +159,10 @@ import io.getstream.chat.android.common.state.Flag as FlagAction
  * - The list_item_message template to use (perhaps, multiple ones...?)
  */
 public class MessageListView : ConstraintLayout {
-
     private companion object {
         private const val LOAD_MORE_THRESHOLD = 10
     }
-
+// here I am learning to fork
     private var messageListViewStyle: MessageListViewStyle? = null
 
     private lateinit var binding: StreamUiMessageListViewBinding
