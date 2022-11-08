@@ -163,6 +163,9 @@ public class MessageListView : ConstraintLayout {
         private const val LOAD_MORE_THRESHOLD = 10
     }
 // here I am learning to fork case 2
+
+    //Hoy 14
+
     private var messageListViewStyle: MessageListViewStyle? = null
 
     private lateinit var binding: StreamUiMessageListViewBinding
